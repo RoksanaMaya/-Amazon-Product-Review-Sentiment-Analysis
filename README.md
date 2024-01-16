@@ -31,4 +31,18 @@ I droped all the unnecessary columns. Kept  overall, reviewTime, reviewText, sum
    * Deleted the unnecessary data
    * Export data in parquet formate
      <br>
-* Step-2:  EDA - Exploratory Data Analysis
+* **Step-2:  EDA - Exploratory Data Analysis**
+  * Checked structural information
+  * Checked and handled missing values
+  * Checked and handled outliers
+  * Visualize the columns using different charts like count plot, whisker plot, and others
+  * Filtered out the necessary columns
+* **Step-3:  NLP - Natural Language Processing**
+  * Convert text to lowercase
+  * Remove punctuations, non-character, emojis
+  * Stop word removal
+  * Wordcloud Analysis
+* **Step-4:  Feature Engineering**
+  * TF-IDF : Text Frequency- Inverse Document Frequency
+  * Dimensionality reduction: PCA
+* 

@@ -26,7 +26,7 @@ The data set contains the following columns <br>
 I droped all the unnecessary columns. Kept  overall, reviewTime, reviewText, summary
 
 ## Workflow
--- * Step-1: Pre-Processing --
+* **Step-1: Pre-Processing**
    * Import Dataset
    * Deleted the unnecessary data
    * Export data in parquet formate

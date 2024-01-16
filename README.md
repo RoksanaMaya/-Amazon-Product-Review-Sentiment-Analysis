@@ -25,7 +25,7 @@ The data set contains the following columns <br>
 * image : Image
 I droped all the unnecessary columns. Kept  overall, reviewTime, reviewText, summary
 
-## Workflow
+## Workflow for Machine Learning Algorithms
 * **Step-1: Pre-Processing**
    * Import Dataset
    * Deleted the unnecessary data
@@ -40,9 +40,40 @@ I droped all the unnecessary columns. Kept  overall, reviewTime, reviewText, sum
 * **Step-3:  NLP - Natural Language Processing**
   * Convert text to lowercase
   * Remove punctuations, non-character, emojis
+  * Tokenization
+  * Lemmatization
   * Stop word removal
   * Wordcloud Analysis
 * **Step-4:  Feature Engineering**
   * TF-IDF : Text Frequency- Inverse Document Frequency
   * Dimensionality reduction: PCA
-* 
+* **Step-5:  Model Creation**
+  * RandomizedSearchCV
+  * Fit the following models for classification
+    * Naive Bayes
+    * Random Forest Classifier
+    * Support Vector Machine
+    * Logistic Regression
+    * GBoosting: Gradient Boosting
+    * XGBoosting- Extreme Gradient Boosting
+* **Step-6:  Model Performance Evaluation**
+## Workflow for Deep Learning Algorithm
+* **Step-1: Pre-Processing**
+   * Import Dataset
+   * Deleted the unnecessary data
+   * Export data in parquet formate
+     <br>
+* **Step-2:  EDA - Exploratory Data Analysis**
+  * Checked structural information
+  * Checked and handled missing values
+  * Checked and handled outliers
+  * Visualize the columns using different charts like count plot, whisker plot, and others
+  * Filtered out the necessary columns
+* **Step-3:  NLP - Natural Language Processing**
+  * Label encoding: one_hot_key
+  * Tokenization
+  * Creating Sequence
+  * Padding
+* **Step-4:  Model Creation**
+  * LSTM
+* **Step-6:  Model Performance Evaluation**

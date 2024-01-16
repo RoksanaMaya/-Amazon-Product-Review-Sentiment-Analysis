@@ -6,5 +6,5 @@ Amazon provides a platform for small businesses and resource-limited companies t
  * Compare the models performance
 
 ## Data Collection
-The dataset is collected from the official website of the Department of Computer Science and Engineering (CSE) at the University of California, San Diego (UCSD)
+The dataset is collected from the official website of the Department of Computer Science and Engineering (CSE) at the University of California, San Diego (UCSD) <br>
 url: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/

@@ -84,7 +84,8 @@ I droped all the unnecessary columns. Kept  overall, reviewTime, reviewText, sum
 * **Step-4:  Model Creation**
   * LSTM
 * **Step-6:  Model Performance Evaluation** <br>
-![LSTM performance summary](https://github.com/RoksanaMaya/-Amazon-Product-Review-Sentiment-Analysis/blob/main/Screenshot_2.jpg)
+  * LSTM performance summary
+   ![LSTM performance summary](https://github.com/RoksanaMaya/-Amazon-Product-Review-Sentiment-Analysis/blob/main/Screenshot_2.jpg)
 
 ## Challenges
 Encountered several challenges during the project including:-

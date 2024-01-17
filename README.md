@@ -84,3 +84,19 @@ I droped all the unnecessary columns. Kept  overall, reviewTime, reviewText, sum
 * **Step-4:  Model Creation**
   * LSTM
 * **Step-6:  Model Performance Evaluation**
+![LSTM performance summary]([url_of_your_image](https://github.com/RoksanaMaya/-Amazon-Product-Review-Sentiment-Analysis/blob/main/Screenshot_2.jpg))
+
+## Challenges
+Encountered several challenges during the project including:-
+ * Managing the vast and diverse volume of Amazon reviews
+ * intricate text preprocessing
+ * addressing class imbalance
+ * fine-tuning hyperparameters
+ * ensuring model interpretability
+ * running the model for the huge dataset in the IDE
+To overcome these challenges I required careful consideration of computational resources, attention to detail in preprocessing, and strategic optimization of model architectures. Despite these obstacles, the project succeeded in providing valuable insights into sentiment analysis of Amazon product reviews.
+## Conclusion
+
+In addressing the challenge of comprehensively analyzing the vast Amazon product review dataset, our objective was to develop and compare traditional supervised machine learning models and a deep learning model for sentiment analysis. The results demonstrated that XGBoosting, among traditional machine learning algorithms, exhibited the highest performance, while LSTM stood out as the superior performer in the realm of deep learning. This dual-pronged approach not only empowers small businesses with actionable insights for product enhancement based on customer sentiments but also highlights the effectiveness of both machine learning paradigms in managing the overwhelming volume of data on the Amazon platform.
+## Future Scope
+Future enhancements for the sentiment analysis of Amazon product reviews include exploring advanced deep learning architectures like BERT and GPT, implementing transfer learning, incorporating multimodal analysis with images or videos, developing dynamic sentiment analysis models, providing user-specific recommendations, focusing on aspect-based sentiment analysis, establishing real-time monitoring systems, extending capabilities to cross-domain sentiment analysis, improving model explainability, and integrating sentiment analysis insights into customer support systems. These avenues aim to refine sentiment analysis models and offer a more nuanced understanding of customer sentiments in the e-commerce domain.

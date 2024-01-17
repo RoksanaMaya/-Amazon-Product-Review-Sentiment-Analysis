@@ -61,9 +61,12 @@ I droped all the unnecessary columns. Kept  overall, reviewTime, reviewText, sum
   
   | model | accuracy_score | f1_score | precision_score | recall_score |
   |----------|----------|----------|----------|----------|
-  | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |Row 1, Col 2 | Row 1, Col 3 |
-  | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |Row 1, Col 2 | Row 1, Col 3 |
-  | Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |Row 1, Col 2 | Row 1, Col 3 |
+  |	GNB	| 0.75260 |	0.772652 | 0.714723 |	0.8408 |
+  | RF	| 0.77295 |	0.779595 | 0.757427 |	0.8031 |
+  | LR	| 0.81765 | 0.824891 | 0.793387 | 0.8590 |
+  |	SVM	| 0.81610	| 0.826526 | 0.782182 |	0.8762 |
+  |	GB	| 0.83610	| 0.840626 | 0.818036 |	0.8645 |
+  | XGB	| 0.82940	| 0.834994 | 0.808485 | 0.8633 |
 ## Workflow for Deep Learning Algorithm
 * **Step-1: Pre-Processing**
    * Import Dataset

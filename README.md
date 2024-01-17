@@ -57,6 +57,13 @@ I droped all the unnecessary columns. Kept  overall, reviewTime, reviewText, sum
     * GBoosting: Gradient Boosting
     * XGBoosting- Extreme Gradient Boosting
 * **Step-6:  Model Performance Evaluation**
+* **Step-7: Performance Evaluation**
+  
+  | model | accuracy_score | f1_score | precision_score | recall_score |
+  |----------|----------|----------|
+  | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |Row 1, Col 2 | Row 1, Col 3 |
+  | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |Row 1, Col 2 | Row 1, Col 3 |
+  | Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |Row 1, Col 2 | Row 1, Col 3 |
 ## Workflow for Deep Learning Algorithm
 * **Step-1: Pre-Processing**
    * Import Dataset

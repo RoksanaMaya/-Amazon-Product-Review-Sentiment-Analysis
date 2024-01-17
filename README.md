@@ -83,8 +83,8 @@ I droped all the unnecessary columns. Kept  overall, reviewTime, reviewText, sum
   * Padding
 * **Step-4:  Model Creation**
   * LSTM
-* **Step-6:  Model Performance Evaluation**
-![LSTM performance summary]([url_of_your_image](https://github.com/RoksanaMaya/-Amazon-Product-Review-Sentiment-Analysis/blob/main/Screenshot_2.jpg))
+* **Step-6:  Model Performance Evaluation** <br>
+![LSTM performance summary]<br>(https://github.com/RoksanaMaya/-Amazon-Product-Review-Sentiment-Analysis/blob/main/Screenshot_2.jpg)
 
 ## Challenges
 Encountered several challenges during the project including:-
